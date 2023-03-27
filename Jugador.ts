@@ -9,7 +9,7 @@ export enum Deporte{
     gym
 }
 
-class Jugador extends MiembroClub{
+export class Jugador extends MiembroClub{
     deporte: Deporte;
 
     constructor(nombre: string, apellido: string, fechaNacimiento: string, dni: number, telefono: number,

@@ -1,0 +1,20 @@
+[
+   {
+      "nombre": "Manuel",
+      "apellido": "Severo",
+      "fechaNacimiento": "9/2/1991",
+      "dni": "35411969",
+      "telefono": "31643461616",
+      "miembroDesde": "28/11/2000",
+      "deporte": 0
+   },
+   {
+      "nombre": "Jim",
+      "apellido": "Jarsmush",
+      "fechaNacimiento": "11/5/1960",
+      "dni": "326523626",
+      "telefono": "32265412316",
+      "miembroDesde": "28/11/2001",
+      "deporte": 1
+   }
+]

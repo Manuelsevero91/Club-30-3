@@ -1,6 +1,6 @@
 import Persona from "./Persona";
 
-export default abstract class MiembroClub implements Persona{
+ abstract class MiembroClub implements Persona{
     nombre: string;
     apellido: string;
     fechaNacimiento: string;
@@ -12,9 +12,10 @@ export default abstract class MiembroClub implements Persona{
         miembroDesde: string){
             this.nombre = nombre;
             this.apellido = apellido;
-            this.fechaNacimiento = fechaNacimiento;
+            this.fechaNacimiento = new Date(fechaNacimiento).toLocaleDateString();
             this.dni = dni;
             this.telefono = telefono;
-            this.miembroDesde = miembroDesde;
+            this.miembroDesde = new Date(miembroDesde).toLocaleDateString();
         }
 }
+export default MiembroClub;
