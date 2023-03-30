@@ -1,13 +1,21 @@
 import GestorClub from "./GestorClub";
 
-let cambaceres = new GestorClub();
+let viperClub = new GestorClub();
 
-cambaceres.agregarSocio();
-cambaceres.agregarSocio();
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
+viperClub.agregarSocio()
 
-console.log(cambaceres.data);
+console.log(viperClub.data);
 
-// cambaceres.buscarPorNombre('Jim');
-// cambaceres.buscarPorDni('35411969');
-// cambaceres.buscarPorDeporte(3);
-// cambaceres.buscarPorApellido('');
+viperClub.buscarPorNombre('Joaquin');
+viperClub.buscarPorApellido('Pamuk');
+viperClub.buscarPorDni('31325336');
+viperClub.buscarPorDeporte(2);
